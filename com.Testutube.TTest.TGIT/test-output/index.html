@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,7 +101,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.Testutube.TTest.com.Testutube.TTest.TGIT.AppTest" hash-for-method="testApp">testApp</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.Testutube.TTest.com.Testutube.TTest.TGIT.AppTest" hash-for-method="AppTesting">AppTesting</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.Testutube.TTest.com.Testutube.TTest.TGIT.App" hash-for-method="TestApp">TestApp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.Testutube.TTest.com.Testutube.TTest.TGIT.AppTest" hash-for-method="assertTest">assertTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -119,14 +129,36 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">com.Testutube.TTest.com.Testutube.TTest.TGIT.App</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestApp">
+                  </a> <!-- TestApp -->
+                  <span class="method-name">TestApp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">com.Testutube.TTest.com.Testutube.TTest.TGIT.AppTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testApp">
-                  </a> <!-- testApp -->
-                  <span class="method-name">testApp</span>
+                  <a name="AppTesting">
+                  </a> <!-- AppTesting -->
+                  <span class="method-name">AppTesting</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertTest">
+                  </a> <!-- assertTest -->
+                  <span class="method-name">assertTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -134,7 +166,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/d6/zgrs6hbx0f3c5qy2hq6z0ln40000gn/T/testng-eclipse-2077659637/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/d6/zgrs6hbx0f3c5qy2hq6z0ln40000gn/T/testng-eclipse-1001769186/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -184,16 +216,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testApp')
+data.setCell(0, 1, 'AppTesting')
 data.setCell(0, 2, 'com.Testutube.TTest.com.Testutube.TTest.TGIT.AppTest')
-data.setCell(0, 3, 21);
+data.setCell(0, 3, 20);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'assertTest')
+data.setCell(1, 2, 'com.Testutube.TTest.com.Testutube.TTest.TGIT.AppTest')
+data.setCell(1, 3, 4);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TestApp')
+data.setCell(2, 2, 'com.Testutube.TTest.com.Testutube.TTest.TGIT.App')
+data.setCell(2, 3, 2);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 21 ms</span>
+              <span class="suite-total-time">Total running time: 26 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -221,8 +261,19 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.Testutube.TTest.com.Testutube.TTest.TGIT.AppTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">testApp</span>
+                <span class="method-name">AppTesting</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">assertTest</span>
+                <span class="method-start">23 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Testutube.TTest.com.Testutube.TTest.TGIT.App</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TestApp</span>
+                <span class="method-start">31 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
