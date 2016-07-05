@@ -11,6 +11,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.AssertJUnit;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -38,8 +39,9 @@ public class BaseClassTest {
 			LoginPageObjets login = new LoginPageObjets(driver);
 			login.LoginUserName.sendKeys("9836067653");
 			login.LoginPassword.sendKeys("tanmoy");
+			//AssertJUnit.assertEquals(driver, driver);
 			login.btn_Login.click();
-			
+			System.out.println("-----Test Login.....");
 			driver.manage().timeouts().implicitlyWait(9000, TimeUnit.SECONDS);
 			
 			} 

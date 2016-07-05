@@ -4,6 +4,7 @@
   <test name="Test">
     <classes>
       <class name="com.Testutube.TTest.com.Testutube.TTest.TGIT.AppTest"/>
-    </classes>
+      	
+      	</classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
