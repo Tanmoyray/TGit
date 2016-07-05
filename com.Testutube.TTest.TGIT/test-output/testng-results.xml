@@ -1,23 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="59" started-at="2016-07-05T05:58:47Z" finished-at="2016-07-05T05:58:47Z">
+  <suite name="Default suite" duration-ms="45094" started-at="2016-07-05T12:03:54Z" finished-at="2016-07-05T12:04:39Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="59" started-at="2016-07-05T05:58:47Z" finished-at="2016-07-05T05:58:47Z">
+    <test name="Default test" duration-ms="45094" started-at="2016-07-05T12:03:54Z" finished-at="2016-07-05T12:04:39Z">
       <class name="com.Testutube.TTest.com.Testutube.TTest.TGIT.App">
-        <test-method status="PASS" signature="TestApp()[pri:0, instance:com.Testutube.TTest.com.Testutube.TTest.TGIT.App@1810399e]" name="TestApp" duration-ms="2" started-at="2016-07-05T11:28:47Z" finished-at="2016-07-05T11:28:47Z">
+        <test-method status="PASS" signature="TestApp()[pri:0, instance:com.Testutube.TTest.com.Testutube.TTest.TGIT.App@13deb50e]" name="TestApp" duration-ms="2" started-at="2016-07-05T17:34:34Z" finished-at="2016-07-05T17:34:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestApp -->
       </class> <!-- com.Testutube.TTest.com.Testutube.TTest.TGIT.App -->
+      <class name="com.Testutube.TTest.com.Testutube.TTest.TGIT.BaseClassTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Testutube.TTest.com.Testutube.TTest.TGIT.BaseClassTest@e25b2fe]" name="setUp" is-config="true" duration-ms="23490" started-at="2016-07-05T17:33:54Z" finished-at="2016-07-05T17:34:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:com.Testutube.TTest.com.Testutube.TTest.TGIT.BaseClassTest@e25b2fe]" name="Login" duration-ms="16680" started-at="2016-07-05T17:34:17Z" finished-at="2016-07-05T17:34:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.Testutube.TTest.com.Testutube.TTest.TGIT.BaseClassTest@e25b2fe]" name="teardown" is-config="true" duration-ms="4819" started-at="2016-07-05T17:34:34Z" finished-at="2016-07-05T17:34:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.Testutube.TTest.com.Testutube.TTest.TGIT.BaseClassTest -->
       <class name="com.Testutube.TTest.com.Testutube.TTest.TGIT.AppTest">
-        <test-method status="PASS" signature="AppTesting()[pri:0, instance:com.Testutube.TTest.com.Testutube.TTest.TGIT.AppTest@7f9a81e8]" name="AppTesting" duration-ms="20" started-at="2016-07-05T11:28:47Z" finished-at="2016-07-05T11:28:47Z">
+        <test-method status="PASS" signature="AppTesting()[pri:0, instance:com.Testutube.TTest.com.Testutube.TTest.TGIT.AppTest@6a41eaa2]" name="AppTesting" duration-ms="3" started-at="2016-07-05T17:34:34Z" finished-at="2016-07-05T17:34:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AppTesting -->
-        <test-method status="PASS" signature="assertTest()[pri:0, instance:com.Testutube.TTest.com.Testutube.TTest.TGIT.AppTest@7f9a81e8]" name="assertTest" duration-ms="4" started-at="2016-07-05T11:28:47Z" finished-at="2016-07-05T11:28:47Z">
+        <test-method status="PASS" signature="assertTest()[pri:0, instance:com.Testutube.TTest.com.Testutube.TTest.TGIT.AppTest@6a41eaa2]" name="assertTest" duration-ms="53" started-at="2016-07-05T17:34:34Z" finished-at="2016-07-05T17:34:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assertTest -->
